@@ -1,0 +1,167 @@
+/********* Fonte *********/
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  margin-top: 0;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h4 {
+  font-size: 30px;
+  color: #e3995c;
+}
+h5 {
+  font-size: 18px;
+}
+/* Footer */
+
+.footer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer img {
+  width: 65%;
+}
+@media (min-width: 600px) {
+  .footer img {
+    width: 20%;
+  }
+}
+
+/* Baggrund */
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Billeder */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+@media (min-width: 600px) {
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container img {
+    transition: filter 0.3s ease-in-out;
+    filter: blur(4px);
+  }
+
+  .image-container:hover img {
+    filter: blur(0);
+  }
+}
+/* header */
+.banner {
+  padding: 1.5rem;
+  gap: 20px 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+  /*Får elementerne til at stå ved siden af hinanden */
+  display: flex;
+  gap: 1rem;
+  justify-content: end;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+/*knapper*/
+.knap {
+  background-color: #0c1f6a;
+  padding: 9px;
+  border-radius: 80px;
+  border-color: #466074;
+  color: white;
+  font-size: 11px;
+}
+.knap_tilbage {
+  background-color: white;
+  padding: 9px;
+  border-radius: 80px;
+  border-color: #0c1f6a;
+  color: #0c1f6a;
+  font-size: 11px;
+}
+
+@media (min-width: 600px) {
+  .knap_tilbage {
+    margin-left: 40px;
+  }
+}
+a:hover {
+  text-decoration: underline #0c1f6a;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  color: #0c1f6a;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+  .toggle-btn ul {
+    display: flex;
+    justify-content: end;
+  }
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+  .main-menu {
+    display: flex;
+    justify-content: end;
+  }
+}

@@ -1,0 +1,249 @@
+/** Portfolio forside mobil**/
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.blue {
+  color: #5f7cb7;
+}
+
+.text-overlay {
+  position: relative;
+}
+
+.img2 {
+  width: 60%;
+  margin-left: 40%;
+}
+
+.text2 {
+  margin: 5px;
+  text-align: end;
+  margin-top: -51px;
+  margin-left: 20px;
+}
+.text2_2 {
+  text-align: end;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.img3 {
+  width: 46%;
+  margin-left: 160px;
+}
+
+.text3 {
+  margin: 5px;
+  text-align: end;
+  margin-top: -43px;
+}
+
+.img4 {
+  width: 45%;
+  margin-left: 55%;
+}
+.text4 {
+  margin: 5px;
+  text-align: end;
+  margin-top: -5px;
+}
+
+.img5 {
+  width: 37%;
+  margin-left: 64%;
+}
+
+.text5 {
+  margin: 5px;
+  text-align: end;
+  margin-top: -16px;
+}
+
+.text2_5 {
+  text-align: end;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.line1 {
+  width: 40%;
+  margin-top: -17px;
+}
+
+.img6 {
+  width: 58%;
+  margin-left: 46%;
+}
+.text6 {
+  margin: 5px;
+  margin-top: -27px;
+  text-align: end;
+}
+
+/** desktop **/
+@media (min-width: 800px) {
+  .grid1_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .line1 {
+    width: 23%;
+    margin-top: -29px;
+    margin-bottom: 59px;
+    margin-left: 23%;
+  }
+
+  .overskrift {
+    font-size: 4rem;
+    margin-top: 0;
+  }
+  .img2 {
+    width: 66%;
+    margin-left: 36%;
+  }
+
+  .text2 {
+    text-align: end;
+    margin-top: -60px;
+  }
+  .text2_2 {
+    text-align: end;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .img3 {
+    width: 50%;
+    margin-left: 132px;
+    animation-delay: 1s;
+  }
+
+  .text3 {
+    text-align: end;
+    margin: 0;
+    margin-top: -37px;
+  }
+
+  .img4 {
+    width: 53%;
+    margin-left: 46%;
+  }
+  .text4 {
+    text-align: end;
+    margin-top: -6px;
+  }
+
+  .img5 {
+    width: 40%;
+    margin-left: 62%;
+    animation-delay: 3s;
+  }
+
+  .text5 {
+    margin: 5px;
+    text-align: end;
+    margin-top: -26px;
+  }
+
+  .text2_5 {
+    text-align: end;
+    font-size: 12px;
+    margin: 5px;
+  }
+
+  .img6 {
+    width: 64%;
+    margin-left: 41%;
+    animation-delay: 4s;
+  }
+
+  .text6 {
+    margin-top: -27px;
+    text-align: end;
+  }
+  .knap {
+    font-size: 13px;
+  }
+  .grid-item {
+    animation-name: slide-up;
+    animation: slide-up 2s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .border:hover {
+    border-top: 2px solid #e3995c;
+    border-bottom: 2px solid #e3995c;
+    padding-bottom: 20px;
+  }
+}
+
+/* grundlæggende web*/
+/*mobil*/
+.line_web {
+  width: 52%;
+}
+
+/*desktop*/
+@media (min-width: 600px) {
+  .grid1_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 30px;
+  }
+  .overskrift_web {
+    font-size: 40px;
+  }
+  .line_web {
+    width: 23%;
+    margin-left: 25%;
+    margin-top: -13px;
+  }
+}
+
+/* UX */
+@media (min-width: 600px) {
+  .grid1_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px;
+    padding: 40px;
+    gap: 10px;
+    margin-left: 15%;
+  }
+  .ux_img {
+    width: 55%;
+  }
+}
+
+/* animation */
+@media (min-width: 600px) {
+  .an_img {
+    width: 50%;
+  }
+  .overskrift_an {
+    font-size: 40px;
+  }
+  .line_an {
+    width: 18%;
+    margin-left: 35%;
+    margin-top: -13px;
+  }
+}
