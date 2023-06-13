@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  margin-left: 52px;
 }
 .b_55,
 .b_50 {
@@ -14,7 +15,7 @@
   margin-top: -20px;
 }
 .b_65 {
-  width: 42%;
+  width: 43%;
   margin-top: -20px;
 }
 
