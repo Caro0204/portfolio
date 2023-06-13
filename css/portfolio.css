@@ -234,6 +234,9 @@
 }
 
 /* animation */
+.line_an {
+  width: 50%;
+}
 @media (min-width: 600px) {
   .an_img {
     width: 50%;

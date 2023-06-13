@@ -29,6 +29,13 @@
   margin-top: -20px;
 }
 
+.line_om {
+  width: 40%;
+  margin-top: -18px;
+  margin-bottom: 20px;
+  margin-left: 57px;
+}
+
 /* desk top*/
 @media (min-width: 600px) {
   .grid1_3 {
@@ -81,5 +88,8 @@
     width: 20%;
     margin-left: 35%;
     margin-top: -17px;
+  }
+  .room {
+    margin-top: 30px;
   }
 }
