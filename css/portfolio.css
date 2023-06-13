@@ -31,7 +31,7 @@
 
 .img3 {
   width: 46%;
-  margin-left: 160px;
+  margin-left: 165px;
 }
 
 .text3 {
@@ -121,7 +121,6 @@
   .img3 {
     width: 50%;
     margin-left: 132px;
-    animation-delay: 1s;
   }
 
   .text3 {
